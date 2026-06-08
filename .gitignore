@@ -1,0 +1,6 @@
+# 社内資料（公開しない）
+document/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
