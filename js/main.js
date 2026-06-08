@@ -70,9 +70,24 @@
         return;
       }
 
-      // TODO: ここで送信先（メール送信API / LINE / 予約システム）に接続する
-      alert("送信ありがとうございます。\n※現在はデモ表示です。送信先の設定後に本送信されます。");
-      form.reset();
+      // メールアプリを起動して問い合わせ内容を送信
+      var get = function (id) {
+        var el = document.getElementById(id);
+        return el ? el.value.trim() : "";
+      };
+      var body =
+        "お名前: " + get("name") + "\n" +
+        "電話番号: " + get("tel") + "\n" +
+        "メール: " + get("email") + "\n" +
+        "ご希望メニュー: " + get("menu-select") + "\n" +
+        "ご質問・ご要望:\n" + get("message") + "\n";
+
+      var mailto =
+        "mailto:lowquality.123@gmail.com" +
+        "?subject=" + encodeURIComponent("【+wonder】お問い合わせ") +
+        "&body=" + encodeURIComponent(body);
+
+      window.location.href = mailto;
     });
 
     // 入力したらエラー表示を解除
