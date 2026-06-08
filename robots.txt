@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wonder-plus.github.io/wonder/sitemap.xml
