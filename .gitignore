@@ -7,6 +7,9 @@ docs/menu-plan.html
 # ローカル専用のメニューサムネ画像・生成物（STORESアップ用）
 docs/menu-thumbs/
 
+# ローカル専用のSTORES貼り付け用テキスト
+docs/stores-text/
+
 # OS / エディタ
 .DS_Store
 Thumbs.db
