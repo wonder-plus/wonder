@@ -1,6 +1,9 @@
 # 社内資料（公開しない）
 document/
 
+# ローカル専用の台帳表示用HTML（リポジトリには含めない）
+docs/menu-plan.html
+
 # OS / エディタ
 .DS_Store
 Thumbs.db
