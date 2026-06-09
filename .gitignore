@@ -4,6 +4,9 @@ document/
 # ローカル専用の台帳表示用HTML（リポジトリには含めない）
 docs/menu-plan.html
 
+# ローカル専用のメニューサムネ画像・生成物（STORESアップ用）
+docs/menu-thumbs/
+
 # OS / エディタ
 .DS_Store
 Thumbs.db
