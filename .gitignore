@@ -10,6 +10,9 @@ docs/menu-thumbs/
 # ローカル専用のSTORES貼り付け用テキスト
 docs/stores-text/
 
+# ローカル専用の公式LINEリッチメニュー画像・生成物
+docs/line-menu/
+
 # OS / エディタ
 .DS_Store
 Thumbs.db
